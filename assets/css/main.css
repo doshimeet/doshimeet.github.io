@@ -3754,7 +3754,15 @@ input, select, textarea {
 		}
 
 /* Main */
+.image-txt-container {
+    display: flex;
+    align-items: center;
+}
 
+.image-txt-container img {
+    flex: 0 0 auto;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
 	#main {
 		background-color: #ffffff;
 		position: relative;
