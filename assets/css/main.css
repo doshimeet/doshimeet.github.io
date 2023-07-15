@@ -3754,15 +3754,7 @@ input, select, textarea {
 		}
 
 /* Main */
-.image-txt-container {
-    display: flex;
-    align-items: center;
-}
 
-.image-txt-container img {
-    flex: 0 0 auto;
-    margin-right: 20px; /* Adjust the margin as needed */
-}
 	#main {
 		background-color: #ffffff;
 		position: relative;
@@ -3785,7 +3777,15 @@ input, select, textarea {
 		#main > footer {
 			text-align: center;
 		}
+		.image-txt-container {
+		    display: flex;
+		    align-items: center;
+		}
 
+		.image-txt-container img {
+		    flex: 0 0 auto;
+		    margin-right: 20px; /* Adjust the margin as needed */
+		}
 		#main > .post {
 			padding: 8rem 8rem 6rem 8rem ;
 		}
